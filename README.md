@@ -1,7 +1,7 @@
 # Goblin Platformer
 A tiny Mario clone with goblins and walking onions! Made with python 2.7 and pygame.
 
-# Prerequisits
+# Prerequisites
 - python 2.7
 - pygame 1.9
 
