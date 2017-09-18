@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="12" tilewidth="32" tileheight="32" backgroundcolor="#248322" nextobjectid="4">
+ <tileset firstgid="1" source="tilesets/triggers.tsx"/>
+ <tileset firstgid="6" source="tilesets/blocks.tsx"/>
+ <tileset firstgid="10" source="tilesets/coin.tsx"/>
+ <layer name="blocks" width="40" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjY2BgYBvkeLCCkeQ+djIwvd1HbfVD2X2E3I2ul97uIyb9DKT7iAHo7hts+YMNB5sagBrlMy3dBzOTWnUPPjW40i4xGACCXwO7
+  </data>
+ </layer>
+ <layer name="triggers" width="40" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDFfAhIM9CkYBtQAjDcykNK2yUMUVtAcAG5QADA==
+  </data>
+ </layer>
+ <layer name="things" width="40" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIxVw4cGDAZDqPnRxdPXU9hc13IeNHinuIxVgi098/FEwCgY7AAADaAH1
+  </data>
+ </layer>
+</map>

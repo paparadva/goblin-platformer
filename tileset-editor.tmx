@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="1" height="1" tilewidth="32" tileheight="32" backgroundcolor="#248322" nextobjectid="4">
+ <tileset firstgid="1" name="triggers" tilewidth="32" tileheight="32" tilecount="5" columns="5">
+  <image source="tilesets/triggers.png" trans="00ff00" width="160" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="player" value="yes"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="enemy" value="yes"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="reverse" value="yes"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="exit" value="yes"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="enemyshell" value="yes"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="6" name="coin" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="tilesets/coin.png" trans="00ff00" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="coin" value="yes"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="7" source="tilesets/blocks.tsx"/>
+ <layer name="blocks" width="1" height="1">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgAAAABAAB
+  </data>
+ </layer>
+ <layer name="triggers" width="1" height="1">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgAAAABAAB
+  </data>
+ </layer>
+ <layer name="things" width="1" height="1">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgAAAABAAB
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,3 @@
+# gitignore for goblin-platformer
+*.pyc
+*.sublime-workspace
